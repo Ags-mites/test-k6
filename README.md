@@ -1,9 +1,5 @@
 # Performance Tests - k6
 
-## Specs
-- `.github/specs/performance-testing.spec.md`
-- `.github/requirements/performance.md`
-
 ## Scripts
 
 | Script | Descripción |
