@@ -1,4 +1,8 @@
-# Performance Tests - k6
+# Performance Testing Suite - k6 
+Automatización de pruebas de carga y rendimiento para los servicios críticos de Automation Exercise utilizando k6 (Grafana). Esta suite se enfoca en validar la resiliencia y los tiempos de respuesta del catálogo bajo condiciones de tráfico concurrente.
+
+# Descripción del Proyecto
+Este proyecto implementa una estrategia de Load Testing basada en el comportamiento real del usuario (User Journey). No solo disparamos peticiones aisladas, sino que simulamos el flujo de navegación: Consulta de Catálogo ➔ Tiempo de Reflexión ➔ Búsqueda de Producto.Características Principales:User Journey Simulation: Flujos encadenados de GET y POST.SLA Enforcement: Uso estricto de Thresholds (Umbrales) para detectar degradación de performance.Performance Metrics: Monitoreo detallado de percentiles $p(50)$, $p(95)$ y $p(99)$.Scalability Testing: Perfil de carga con Ramp-up y Ramp-down para observar la recuperación del sistema.
 
 ## Scripts
 
